@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./assets/phone.png" type="image/x-icon">
-    <title>Mobile Shop</title>
+    <title>AppleIncKenya</title>
 
     <!-- Bootstrap CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -49,7 +49,8 @@
     <header id="header">
         <div class="topnav d-flex justify-content-end px-4 py-1">
             <div class="font-size-14">
-                <a href="./login.php" class="px-3 border-start text-dark">
+            <a href="#" class="px-3 border-start text-dark">
+                <!-- <a href="./login.php" class="px-3 border-start text-dark"> -->
                     <?php if ($_SESSION['logged'] == true) {
                         echo $acc->getAccount($_COOKIE['user_id'])['username']; ?>
                         <img src="<?php echo $acc->getAccount($_COOKIE['user_id'], 'user')['avatar'] ?>" alt="avatar"
@@ -58,16 +59,19 @@
                         echo "Login";
                     } ?>
                 </a>
-                <a href="./register.php" class="px-3 border-start text-dark">Register</a>
+                <!-- <a href="./register.php" class="px-3 border-start text-dark">Register</a>
                 <a href="./account.php" class="px-3 border-start text-dark">Account</a>
-                <a href="./manage.php" class="px-3 border-start text-dark">Manage</a>
+                <a href="./manage.php" class="px-3 border-start text-dark">Manage</a> -->
+                <a href="#p" class="px-3 border-start text-dark">Register</a>
+                <a href="#" class="px-3 border-start text-dark">Account</a>
+                <a href="#" class="px-3 border-start text-dark">Manage</a>
             </div>
         </div>
 
         <!-- Primary Navigation -->
         <nav class="navbar navbar-expand-lg px-3 navbar-dark color-second-bg">
             <img src="./assets/phone.png" class="logo">
-            <a class="navbar-brand" href="./index.php">Mobile Shop</a>
+            <a class="navbar-brand" href="./index.php">AppleIncKenya</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>

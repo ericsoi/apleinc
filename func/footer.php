@@ -6,9 +6,8 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-3 col-12">
-                <h4 class="font-size-20">Mobile Shop</h4>
-                <p class="font-size-14  text-white-50">The mobile shop company website, create by php, mysql
-                    database and bootstrap5.</p>
+                <h4 class="font-size-20">AppleIncKenya</h4>
+                <p class="font-size-14  text-white-50">Get the best pocket friendly deals from AppleIncKenya</p>
             </div>
             <div class="col-lg-4 col-12">
                 <h4 class="font-size-20">Newslatter</h4>
@@ -43,8 +42,8 @@
     </div>
 </footer>
 <div class="copyright text-center py-2">
-    <p class="font-size-14 my-0">&copy; Copyrights 2022. Desing By <a
-            href="https://www.facebook.com/profile.php?id=100045406261491" class="color-second">Chung Nguyễn</a></p>
+    <p class="font-size-14 my-0">AppleIncKenya &copy; Copyrights 2024. Desing By <a
+            href="#" class="color-second">SonuxTechnologies</a></p>
 </div>
 <!-- !start #footer -->
 
