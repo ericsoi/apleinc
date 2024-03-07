@@ -49,8 +49,8 @@
     <header id="header">
         <div class="topnav d-flex justify-content-end px-4 py-1">
             <div class="font-size-14">
-            <a href="#" class="px-3 border-start text-dark">
-                <!-- <a href="./login.php" class="px-3 border-start text-dark"> -->
+            <!-- <a href="#" class="px-3 border-start text-dark">
+                <a href="./login.php" class="px-3 border-start text-dark">
                     <?php if ($_SESSION['logged'] == true) {
                         echo $acc->getAccount($_COOKIE['user_id'])['username']; ?>
                         <img src="<?php echo $acc->getAccount($_COOKIE['user_id'], 'user')['avatar'] ?>" alt="avatar"
@@ -58,13 +58,13 @@
                     <?php } else {
                         echo "Login";
                     } ?>
-                </a>
+                </a> -->
                 <!-- <a href="./register.php" class="px-3 border-start text-dark">Register</a>
                 <a href="./account.php" class="px-3 border-start text-dark">Account</a>
                 <a href="./manage.php" class="px-3 border-start text-dark">Manage</a> -->
-                <a href="#p" class="px-3 border-start text-dark">Register</a>
+                <!-- <a href="#p" class="px-3 border-start text-dark">Register</a>
                 <a href="#" class="px-3 border-start text-dark">Account</a>
-                <a href="#" class="px-3 border-start text-dark">Manage</a>
+                <a href="#" class="px-3 border-start text-dark">Manage</a> -->
             </div>
         </div>
 
